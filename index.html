@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Email js-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+            <script type="text/javascript">
+            (function() {
+            emailjs.init("user_Tz0lmHTiL0wSRpCk8qNXJ");
+            })();
+       </script>
+  
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+          
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <title>MAURICIO GONZALEZ SITE</title>
+    </head>
+
+    <style>
+        .portafolio{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            max-width: 1250px;
+            margin: -120px auto;
+            padding: 0 20px;
+            text-align: center;
+            gap: 20px;
+        }
+    </style>
+
+    <body>
+
+   <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
+       
+
+        <!--===== HEADER =====-->
+        <div class="wrapper">
+        <header class="l-header">
+       
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">MG</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Inicio</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre mi</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portafolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+    
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title "><span>MAURICIO GONZALEZ</span><br>FRONTEND DEVELOPER.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/undraw_Code_thinking_re_gka2.svg" alt="" class="home__img"> 
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">Sobre mi</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="skills__img">
+                        <img src="assets/img/undraw_portfolio_website_lidw.svg" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">Soy Mauricio Gonzalez</h2>
+                        <span class="about__profession">Frontend Developer</span>
+                        <p class="about__text">Soy un desarrollador de frontend,actualmente trabajando en <a href="https://enersinc.com/" target="_blank" rel="noopener noreferrer" class="link-contacto">Enersinc.</a><br>
+                            Me gusta crear sitios web 
+                            que generen gran valor comercial para las personas,
+                            me gusta aportar a través de mi creatividad y mi codigo.
+                            Contactame a travez de Linkedin o envia un mensaje <a href="#contact" class="link-contacto">aqui</a>.</p>
+
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/mauricio-gonzalez-desarrollador-web" class="about__social-icon" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/mauricio-hub"  class="about__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
+                            <!-- <a href="#" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">React</span>
+                        <span class="skills__name">Python</span>
+                        
+                        <h3 class="skills__subtitle">Design</h3>
+                        <span class="skills__name">Figma</span>
+                       <!--  <span class="skills__name">Adobe XD</span>
+                        <span class="skills__name">Photoshop</span> -->
+                    </div>
+
+                    <div class="skills__img">
+                       
+                        <img src="assets/img/undraw_Coding_re_iv62.svg" alt="foto de perfil">
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+                <div class="portafolio">
+                    <div><h3>Guepardos</h3>
+                        <p>Trabajo mas reciente como freelance <a href="https://guepardos.co/" target="_blank" rel="noopener noreferrer" class="link-contacto">Guepardos</a> </p> 
+                        <img src="assets/img/guepardos.png" alt="Guepardos landing page">    
+                    </div>
+        
+                    <div><h3>Enersinc</h3>
+                        <p>En la actulidad formo parte del equipo de TI de <span class="link-contacto">Enersinc SAS.</span></p>
+                        <img src="assets/img/enersinc.png" alt="Guepardos landing page">       
+                    </div>
+
+                </div>
+                
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <!-- <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/guepardos.png" alt="">
+
+                        <div class="portfolio__link">
+                            <h3>Trabajo mas reciente como freelance
+                                guepardos.co</h3>
+                        
+                            <p>VUE/CSS/BOOTSTRAP</p><br>
+                            <a target="_blank" href="https://guepardos.co/" class="portfolio__link-name">Visita Su WebSite</a>
+                         
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/Exponencial-Confirming-Affirmatum-Colombia-Criptomoneda-Bitcoin.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <h3>Crypto App</h3>
+                           
+                            <p>REACT/REDUX/ANTD</p><br>
+                            <a target="_blank" href="https://cryptonews-app-reactjs.netlify.app/" class="portfolio__link-name">Demo</a>
+                            <a  target="_blank" href="https://github.com/mauricio-hub/crypto-react-app" class="portfolio__link-name">Codigo</a>
+                        </div>
+                    </div> -->
+                  <!--   <div class="portfolio__img">
+                        <img src="assets/img/vansCapture.png" alt="">
+
+                        <div class="portfolio__link">
+                            <h3 >Vans Template</h3>
+                           
+                            <p>HTML/CSS/BOOTSTRAP</p><br>
+                            <a  target="_blank"  href="https://mauricio-hub.github.io/vans-clone/" class="portfolio__link-name">Demo</a>
+                            <a target="_blank"  href="https://github.com/mauricio-hub/vans-clone" class="portfolio__link-name">Codigo</a>
+                        </div>
+                    </div>
+                    -->
+                   <!--  <div class="portfolio__img">
+                        <img src="assets/img/movieApp.png" alt="">
+
+                        <div class="portfolio__link">
+                            <h3>Rect Movie App</h3>
+                           
+                            <p>REACT/CSS</p><br>
+                            <a  target="_blank" href="https://mauricio-hub.github.io/movie-app-react/" class="portfolio__link-name">Demo</a>
+                            <a  target="_blank" href="https://github.com/mauricio-hub/movie-app-react" class="portfolio__link-name">Codigo</a>
+                        </div>
+                    </div> -->
+                  <!--   <div class="portfolio__img">
+                        <img src="assets/img/react_music.png" alt="">
+
+                        <div class="portfolio__link">
+                            <h3>React Music App</h3>
+                           
+                            <p>REACT/CSS</p><br>
+                            <a target="_blank" href="https://mauricio-hub.github.io/react-music-player/" class="portfolio__link-name">Demo</a>
+                            <a target="_blank" href="https://github.com/mauricio-hub/react-music-player" class="portfolio__link-name">Codigo</a>
+                        </div>
+                    </div>
+                    -->
+                   <!--  <div class="portfolio__img">
+                        <img src="assets/img/chilasStore.png" alt="">
+
+                        <div class="portfolio__link">
+                            <h3>Ecommerce Template</h3>
+                           
+                            <p>HTML/CSS/JS</p><br>
+                            <a target="_blank" href="https://mauricio-hub.github.io/ecommerce-template/" class="portfolio__link-name">Demo</a>
+                            <a target="_blank" href="https://github.com/mauricio-hub/ecommerce-template" class="portfolio__link-name">Codigo</a>
+                        </div>
+                    </div> -->
+                  
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contacto</h2>
+
+                <div class="contact__container bd-grid">
+                   
+
+                    <div class="skills__img">
+                       
+                        <img src="./assets/img/message.svg" alt="" class="message-img">
+                    </div>
+
+                    <div>
+                        <h3>EMAIL</h3>
+                        <h4>mauriciogonzalezdeveloper@gmail.com</h4>
+                        <h3>WHATSAPP</h3>
+                        <h4>+57-302446004</h4>
+                    </div>
+
+                    <!-- <form  target="_blank" input type="text" name="from_name" id="form" class="contact__form" >
+                        <div class="contact__inputs">
+                         <input type="text" name="from_name" id="from_name"  placeholder="Nombre" class="contact__input"  autocomplete="off" required>
+                           
+                            <input  type="email" name="email" id="email" placeholder="Email" class="contact__input" autocomplete="off"  required  >
+                        </div>
+
+                        <textarea   type="text" name="message" id="message" placeholder="Mensaje" cols="0" rows="10" class="contact__input" autocomplete="off" required></textarea>
+
+                        <input  type="submit" value="Enviar" id="button" class="contact__button">
+                    </form> -->
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Mauricio Gonzalez</h2>
+                    <p class="footer__text">Contactame para resolver tus dudas de como puedo ayudarte.</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORA</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Inicio</a></li>
+                        <li><a href="#about" class="footer__link">Sobre mi</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portafolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">Redes Sociales</h2>
+                    <a href="https://www.linkedin.com/in/mauricio-gonzalez-desarrollador-web" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/mauricio-hub"  class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+    </div>
+        <script>
+             TweenMax.from('.text h1', 2, {
+      delay: .6,
+      x: 1000,
+      ease: Circ.easeInOut
+    })
+
+TweenMax.from('.nav', 2, {
+      delay: .8,
+      opacity: 0,
+      ease: Expo.easeInOut
+    })
+        //primara animacion
+            TweenMax.to('.first', 1.5, {
+              delay: .2,
+              left: '-100%',
+              ease: Expo.easeInOut
+            })
+        
+            TweenMax.to('.second', 1.5, {
+              delay: .4,
+              left: '-100%',
+              ease: Expo.easeInOut
+            })
+        
+            TweenMax.to('.third', 1.5, {
+              delay: .6,
+              left: '-100%',
+              ease: Expo.easeInOut
+            })
+        
+          </script>
+
+ 
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+         
+        <script src="assets/js/email.js"></script>
+
+
+        <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('user_Tz0lmHTiL0wSRpCk8qNXJ')
+</script>
+       
+    </body>
+</html>

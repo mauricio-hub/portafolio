@@ -21,47 +21,27 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
-              href="https://www.linkedin.com/in/shreyas-g-khakal/"
+              href="https://www.linkedin.com/in/mauricio-gonzalez-frontend-developer/"
               target="_blank"
               rel="noreferrer"
             >
               <FaLinkedin className="linkedin" />
             </a>
             <a
-              href="https://github.com/Shreyasgkhakal100/"
+              href="https://github.com/mauricio-hub"
               target="_blank"
               rel="noreferrer"
             >
               <VscGithub className="github" />
             </a>
             <a
-              href="mailto:shreyasgkhakal100@gmail.com"
+              href="mailto:mauriciogonzalezdeveloper@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
               <CgMail className="email" />
             </a>
-            <a href="tel:+918668613593" target="_blank" rel="noreferrer">
-              <BsFillTelephoneFill className="phone" />
-            </a>
-          </div>
-          <div className="mailNumber" data-aos="fade-right">
-            <div>
-              <span>
-                <CgMail className="email" />
-              </span>
-              <span>
-                <p>shreyasgkhakal100@gmail.com</p>
-              </span>
-            </div>
-            <div className="iconsCont">
-              <span>
-                <BsFillTelephoneFill className="phone" />
-              </span>
-              <span>
-                <p>+91 8668613593</p>
-              </span>
-            </div>
+            
           </div>
         </div>
       </div>

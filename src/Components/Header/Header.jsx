@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar";
 import { ThemeContext } from "../../Context/theme";
-import Image from "./../../assets/S-logo.png";
+import Image from "./../../assets/MG.png";
 
 import "./Header.css";
 export const Header = () => {
@@ -13,9 +13,9 @@ export const Header = () => {
         <h3>
           <a href="#home" className="link">
             <span>
-              <img src={Image} alt="logo" />
+             {/*  <img src={Image} alt="logo" /> */}
             </span>
-            hreyas
+            MG/Developer
           </a>
         </h3>
         <Navbar />

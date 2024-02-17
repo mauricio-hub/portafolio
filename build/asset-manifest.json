@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portafolio/build/static/css/main.55e21e85.css",
-    "main.js": "/portafolio/build/static/js/main.8dd51b55.js",
-    "static/media/ener.png": "/portafolio/build/static/media/ener.330e73dcd49c91fe50fc.png",
-    "static/media/gue.png": "/portafolio/build/static/media/gue.ab1b817008effa4a4bda.png",
-    "static/media/pic.png": "/portafolio/build/static/media/pic.65077565a30dea965bcc.png",
-    "static/media/MG.png": "/portafolio/build/static/media/MG.0d38cb81838177a972fc.png",
-    "index.html": "/portafolio/build/index.html",
-    "main.55e21e85.css.map": "/portafolio/build/static/css/main.55e21e85.css.map",
-    "main.8dd51b55.js.map": "/portafolio/build/static/js/main.8dd51b55.js.map"
+    "main.css": "/portafolio/static/css/main.55e21e85.css",
+    "main.js": "/portafolio/static/js/main.07cf8191.js",
+    "static/media/ener.png": "/portafolio/static/media/ener.330e73dcd49c91fe50fc.png",
+    "static/media/gue.png": "/portafolio/static/media/gue.ab1b817008effa4a4bda.png",
+    "static/media/pic.png": "/portafolio/static/media/pic.65077565a30dea965bcc.png",
+    "static/media/MG.png": "/portafolio/static/media/MG.0d38cb81838177a972fc.png",
+    "index.html": "/portafolio/index.html",
+    "main.55e21e85.css.map": "/portafolio/static/css/main.55e21e85.css.map",
+    "main.07cf8191.js.map": "/portafolio/static/js/main.07cf8191.js.map"
   },
   "entrypoints": [
     "static/css/main.55e21e85.css",
-    "static/js/main.8dd51b55.js"
+    "static/js/main.07cf8191.js"
   ]
 }
